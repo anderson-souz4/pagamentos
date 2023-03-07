@@ -1,7 +1,6 @@
 package br.com.alurafood.pagamentos.controller;
 
 import br.com.alurafood.pagamentos.dto.PagamentoDto;
-import br.com.alurafood.pagamentos.model.Pagamento;
 import br.com.alurafood.pagamentos.services.PagamentoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -14,7 +13,6 @@ import org.springframework.web.util.UriComponentsBuilder;
 import javax.validation.Valid;
 import javax.validation.constraints.NotNull;
 import java.net.URI;
-import java.util.List;
 
 @RestController
 @RequestMapping("/pagamentos")
